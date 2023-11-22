@@ -47,8 +47,8 @@ app.get('/pay', function(req, res) {
     "customerName": 'User',
     "customerPhone": '(607) 836-4935',
     "customerEmail": 'john@doe.com',
-    // "returnUrl": '', //Optional, PG returns to this URL after payment.
-    // "notifyUrl": '' //Optional, PG sends a webhook to this URL after payment.
+    "returnUrl": '', //PG returns to this URL after payment, Send Empty if not needed.
+    "notifyUrl": '' //PG sends a webhook to this URL after payment, Send Empty if not needed.
   };
 
   formObj.signature = signatureRequest( formObj, SECRET_KEY );
