@@ -2,8 +2,8 @@
 
 ## Basic steps to start
 
-1. npm install
-2. Change adequately in app.js, Especially APP_ID and SECRET_KEY as provided.
-3. node app.js
+1. Change adequately in payment_controller.rb, Especially APP_ID and SECRET_KEY as provided.
+
+2. rails server
 
 For any suggestions or doubts, Please contact us at contact@rosatocorp.com
