@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Directing</title>
+</head>
+<body>
+<h1>Do not reload the page....</h1>
+<form style="display: none;" name="form" id="form" method="post" action="http://localhost:3699/checkout/post/submit">
+    <input type="hidden" name="appId" value="{{ form.appId }}"/>
+    <input type="hidden" name="orderId" value="{{ form.orderId }}"/>
+    <input type="hidden" name="orderAmount" value="{{ form.orderAmount }}"/>
+    <input type="hidden" name="orderCurrency" value="{{ form.orderCurrency }}"/>
+    <input type="hidden" name="orderNote" value="{{ form.orderNote }}"/>
+    <input type="hidden" name="customerName" value="{{ form.customerName }}"/>
+    <input type="hidden" name="customerEmail" value="{{ form.customerEmail }}"/>
+    <input type="hidden" name="customerPhone" value="{{ form.customerPhone }}"/>
+    <input type="hidden" name="returnUrl" value="{{ form.returnUrl }}"/>
+    <input type="hidden" name="notifyUrl" value="{{ form.notifyUrl }}"/>
+    <input type="hidden" name="signature" value="{{ form.signature }}"/>
+
+    <script type="text/javascript">
+        document.form.submit();
+    </script>
+</form>
+</body>
+</html>
