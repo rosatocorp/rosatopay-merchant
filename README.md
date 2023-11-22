@@ -1,4 +1,4 @@
-**Rosatopay's merchant sample code for Node.js**
+**Rosatopay's merchant sample code for Ruby on Rails**
 
 ## Basic steps to start
 
