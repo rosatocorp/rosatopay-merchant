@@ -1,9 +1,9 @@
-**Rosatopay's merchant sample code for Node.js**
+**Rosatopay's merchant sample code for Java**
 
 ## Basic steps to start
 
-1. npm install
-2. Change adequately in app.js, Especially APP_ID and SECRET_KEY as provided.
-3. node app.js
+1. Create a new Spring Boot project or use an existing one.
+2. Change adequately in application.properties, Especially APP_ID and SECRET_KEY as provided.
+3. ./mvnw spring-boot:run
 
 For any suggestions or doubts, Please contact us at contact@rosatocorp.com
