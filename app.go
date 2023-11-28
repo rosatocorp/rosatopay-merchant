@@ -64,7 +64,7 @@ func main() {
 		formObj := map[string]string{
 			"appId":         appID,
 			"orderId":       generateOrderID(),
-			"orderAmount":   "10",
+			"orderAmount":   "10.00", //Always pass 2 fixed decimals, like 1.00 or 2.00 or 1.46 and not 1 or 2.
 			"orderCurrency": "USD",
 			"orderNote":     "Add money to your wallet",
 			"customerName":  "User",
